@@ -1,0 +1,713 @@
+{
+ "cpu": [
+  {
+   "id": "cpu-am4-4c",
+   "category": "cpu",
+   "name": "AM4 4-core 65W (budget, integrated graphics)",
+   "socket": "AM4",
+   "cores": 4,
+   "tdp": 65,
+   "perf": 30,
+   "hasIgpu": true,
+   "price": 110
+  },
+  {
+   "id": "cpu-am4-6c",
+   "category": "cpu",
+   "name": "AM4 6-core 65W",
+   "socket": "AM4",
+   "cores": 6,
+   "tdp": 65,
+   "perf": 45,
+   "hasIgpu": false,
+   "price": 130
+  },
+  {
+   "id": "cpu-am4-8c",
+   "category": "cpu",
+   "name": "AM4 8-core 105W",
+   "socket": "AM4",
+   "cores": 8,
+   "tdp": 105,
+   "perf": 58,
+   "hasIgpu": false,
+   "price": 200
+  },
+  {
+   "id": "cpu-am5-6c",
+   "category": "cpu",
+   "name": "AM5 6-core 65W (basic integrated graphics)",
+   "socket": "AM5",
+   "cores": 6,
+   "tdp": 65,
+   "perf": 60,
+   "hasIgpu": true,
+   "price": 200
+  },
+  {
+   "id": "cpu-am5-8c",
+   "category": "cpu",
+   "name": "AM5 8-core 105W",
+   "socket": "AM5",
+   "cores": 8,
+   "tdp": 105,
+   "perf": 75,
+   "hasIgpu": true,
+   "price": 290
+  },
+  {
+   "id": "cpu-am5-12c",
+   "category": "cpu",
+   "name": "AM5 12-core 120W",
+   "socket": "AM5",
+   "cores": 12,
+   "tdp": 120,
+   "perf": 88,
+   "hasIgpu": true,
+   "price": 400
+  },
+  {
+   "id": "cpu-am5-16c",
+   "category": "cpu",
+   "name": "AM5 16-core 170W",
+   "socket": "AM5",
+   "cores": 16,
+   "tdp": 170,
+   "perf": 100,
+   "hasIgpu": true,
+   "price": 550
+  },
+  {
+   "id": "cpu-lga-4c",
+   "category": "cpu",
+   "name": "LGA1700 4-core 58W (integrated graphics)",
+   "socket": "LGA1700",
+   "cores": 4,
+   "tdp": 58,
+   "perf": 35,
+   "hasIgpu": true,
+   "price": 120
+  },
+  {
+   "id": "cpu-lga-6c",
+   "category": "cpu",
+   "name": "LGA1700 6-core 65W (integrated graphics)",
+   "socket": "LGA1700",
+   "cores": 6,
+   "tdp": 65,
+   "perf": 50,
+   "hasIgpu": true,
+   "price": 190
+  },
+  {
+   "id": "cpu-lga-10c",
+   "category": "cpu",
+   "name": "LGA1700 10-core 125W (integrated graphics)",
+   "socket": "LGA1700",
+   "cores": 10,
+   "tdp": 125,
+   "perf": 72,
+   "hasIgpu": true,
+   "price": 280
+  },
+  {
+   "id": "cpu-lga-14c",
+   "category": "cpu",
+   "name": "LGA1700 14-core 150W (integrated graphics)",
+   "socket": "LGA1700",
+   "cores": 14,
+   "tdp": 150,
+   "perf": 90,
+   "hasIgpu": true,
+   "price": 380
+  }
+ ],
+ "motherboard": [
+  {
+   "id": "mb-am4-matx",
+   "category": "motherboard",
+   "name": "AM4 micro-ATX, DDR4",
+   "socket": "AM4",
+   "formFactor": "mATX",
+   "ramType": "DDR4",
+   "maxRamSpeed": 3600,
+   "ramSlots": 4,
+   "maxRamGb": 128,
+   "m2Slots": 1,
+   "sataPorts": 4,
+   "price": 80
+  },
+  {
+   "id": "mb-am4-atx",
+   "category": "motherboard",
+   "name": "AM4 ATX, DDR4",
+   "socket": "AM4",
+   "formFactor": "ATX",
+   "ramType": "DDR4",
+   "maxRamSpeed": 3600,
+   "ramSlots": 4,
+   "maxRamGb": 128,
+   "m2Slots": 2,
+   "sataPorts": 6,
+   "price": 120
+  },
+  {
+   "id": "mb-am5-itx",
+   "category": "motherboard",
+   "name": "AM5 mini-ITX, DDR5",
+   "socket": "AM5",
+   "formFactor": "ITX",
+   "ramType": "DDR5",
+   "maxRamSpeed": 6400,
+   "ramSlots": 2,
+   "maxRamGb": 96,
+   "m2Slots": 2,
+   "sataPorts": 4,
+   "price": 200
+  },
+  {
+   "id": "mb-am5-matx",
+   "category": "motherboard",
+   "name": "AM5 micro-ATX, DDR5",
+   "socket": "AM5",
+   "formFactor": "mATX",
+   "ramType": "DDR5",
+   "maxRamSpeed": 6000,
+   "ramSlots": 4,
+   "maxRamGb": 128,
+   "m2Slots": 2,
+   "sataPorts": 4,
+   "price": 140
+  },
+  {
+   "id": "mb-am5-atx",
+   "category": "motherboard",
+   "name": "AM5 ATX, DDR5",
+   "socket": "AM5",
+   "formFactor": "ATX",
+   "ramType": "DDR5",
+   "maxRamSpeed": 6400,
+   "ramSlots": 4,
+   "maxRamGb": 192,
+   "m2Slots": 3,
+   "sataPorts": 6,
+   "price": 190
+  },
+  {
+   "id": "mb-lga-matx-d4",
+   "category": "motherboard",
+   "name": "LGA1700 micro-ATX, DDR4",
+   "socket": "LGA1700",
+   "formFactor": "mATX",
+   "ramType": "DDR4",
+   "maxRamSpeed": 3200,
+   "ramSlots": 4,
+   "maxRamGb": 128,
+   "m2Slots": 2,
+   "sataPorts": 4,
+   "price": 100
+  },
+  {
+   "id": "mb-lga-atx-d4",
+   "category": "motherboard",
+   "name": "LGA1700 ATX, DDR4",
+   "socket": "LGA1700",
+   "formFactor": "ATX",
+   "ramType": "DDR4",
+   "maxRamSpeed": 3600,
+   "ramSlots": 4,
+   "maxRamGb": 128,
+   "m2Slots": 2,
+   "sataPorts": 6,
+   "price": 140
+  },
+  {
+   "id": "mb-lga-matx-d5",
+   "category": "motherboard",
+   "name": "LGA1700 micro-ATX, DDR5",
+   "socket": "LGA1700",
+   "formFactor": "mATX",
+   "ramType": "DDR5",
+   "maxRamSpeed": 5600,
+   "ramSlots": 4,
+   "maxRamGb": 128,
+   "m2Slots": 2,
+   "sataPorts": 4,
+   "price": 150
+  },
+  {
+   "id": "mb-lga-atx-d5",
+   "category": "motherboard",
+   "name": "LGA1700 ATX, DDR5",
+   "socket": "LGA1700",
+   "formFactor": "ATX",
+   "ramType": "DDR5",
+   "maxRamSpeed": 6000,
+   "ramSlots": 4,
+   "maxRamGb": 192,
+   "m2Slots": 3,
+   "sataPorts": 6,
+   "price": 200
+  },
+  {
+   "id": "mb-lga-itx-d5",
+   "category": "motherboard",
+   "name": "LGA1700 mini-ITX, DDR5",
+   "socket": "LGA1700",
+   "formFactor": "ITX",
+   "ramType": "DDR5",
+   "maxRamSpeed": 6000,
+   "ramSlots": 2,
+   "maxRamGb": 96,
+   "m2Slots": 2,
+   "sataPorts": 4,
+   "price": 190
+  }
+ ],
+ "ram": [
+  {
+   "id": "ram-d4-16",
+   "category": "ram",
+   "name": "16GB DDR4-3200 (2x8GB)",
+   "type": "DDR4",
+   "speed": 3200,
+   "capacityGb": 16,
+   "sticks": 2,
+   "price": 40
+  },
+  {
+   "id": "ram-d4-32",
+   "category": "ram",
+   "name": "32GB DDR4-3200 (2x16GB)",
+   "type": "DDR4",
+   "speed": 3200,
+   "capacityGb": 32,
+   "sticks": 2,
+   "price": 70
+  },
+  {
+   "id": "ram-d4-32f",
+   "category": "ram",
+   "name": "32GB DDR4-3600 (2x16GB)",
+   "type": "DDR4",
+   "speed": 3600,
+   "capacityGb": 32,
+   "sticks": 2,
+   "price": 85
+  },
+  {
+   "id": "ram-d4-64",
+   "category": "ram",
+   "name": "64GB DDR4-3200 (2x32GB)",
+   "type": "DDR4",
+   "speed": 3200,
+   "capacityGb": 64,
+   "sticks": 2,
+   "price": 140
+  },
+  {
+   "id": "ram-d5-16",
+   "category": "ram",
+   "name": "16GB DDR5-5600 (2x8GB)",
+   "type": "DDR5",
+   "speed": 5600,
+   "capacityGb": 16,
+   "sticks": 2,
+   "price": 55
+  },
+  {
+   "id": "ram-d5-32",
+   "category": "ram",
+   "name": "32GB DDR5-5600 (2x16GB)",
+   "type": "DDR5",
+   "speed": 5600,
+   "capacityGb": 32,
+   "sticks": 2,
+   "price": 90
+  },
+  {
+   "id": "ram-d5-32f",
+   "category": "ram",
+   "name": "32GB DDR5-6000 (2x16GB)",
+   "type": "DDR5",
+   "speed": 6000,
+   "capacityGb": 32,
+   "sticks": 2,
+   "price": 105
+  },
+  {
+   "id": "ram-d5-32x",
+   "category": "ram",
+   "name": "32GB DDR5-6400 (2x16GB)",
+   "type": "DDR5",
+   "speed": 6400,
+   "capacityGb": 32,
+   "sticks": 2,
+   "price": 125
+  },
+  {
+   "id": "ram-d5-64",
+   "category": "ram",
+   "name": "64GB DDR5-6000 (2x32GB)",
+   "type": "DDR5",
+   "speed": 6000,
+   "capacityGb": 64,
+   "sticks": 2,
+   "price": 200
+  }
+ ],
+ "gpu": [
+  {
+   "id": "gpu-e4",
+   "category": "gpu",
+   "name": "Entry 4GB, 75W (no power cable)",
+   "tdp": 75,
+   "lengthMm": 170,
+   "vramGb": 4,
+   "perf": 15,
+   "price": 110
+  },
+  {
+   "id": "gpu-itx8",
+   "category": "gpu",
+   "name": "Compact 8GB, 115W (short card)",
+   "tdp": 115,
+   "lengthMm": 170,
+   "vramGb": 8,
+   "perf": 32,
+   "price": 230
+  },
+  {
+   "id": "gpu-e8",
+   "category": "gpu",
+   "name": "Entry 8GB, 115W",
+   "tdp": 115,
+   "lengthMm": 200,
+   "vramGb": 8,
+   "perf": 30,
+   "price": 190
+  },
+  {
+   "id": "gpu-m8",
+   "category": "gpu",
+   "name": "1080p 8GB, 160W",
+   "tdp": 160,
+   "lengthMm": 240,
+   "vramGb": 8,
+   "perf": 45,
+   "price": 270
+  },
+  {
+   "id": "gpu-m12",
+   "category": "gpu",
+   "name": "1080p high 12GB, 190W",
+   "tdp": 190,
+   "lengthMm": 260,
+   "vramGb": 12,
+   "perf": 55,
+   "price": 330
+  },
+  {
+   "id": "gpu-q12",
+   "category": "gpu",
+   "name": "1440p 12GB, 220W",
+   "tdp": 220,
+   "lengthMm": 285,
+   "vramGb": 12,
+   "perf": 68,
+   "price": 430
+  },
+  {
+   "id": "gpu-q16",
+   "category": "gpu",
+   "name": "1440p high 16GB, 285W",
+   "tdp": 285,
+   "lengthMm": 305,
+   "vramGb": 16,
+   "perf": 80,
+   "price": 600
+  },
+  {
+   "id": "gpu-u16",
+   "category": "gpu",
+   "name": "4K 16GB, 320W",
+   "tdp": 320,
+   "lengthMm": 330,
+   "vramGb": 16,
+   "perf": 92,
+   "price": 800
+  },
+  {
+   "id": "gpu-u24",
+   "category": "gpu",
+   "name": "4K 24GB, 450W",
+   "tdp": 450,
+   "lengthMm": 340,
+   "vramGb": 24,
+   "perf": 100,
+   "price": 1500
+  }
+ ],
+ "storage": [
+  {
+   "id": "sto-n500",
+   "category": "storage",
+   "name": "500GB NVMe SSD",
+   "interface": "NVMe",
+   "capacityGb": 500,
+   "price": 40
+  },
+  {
+   "id": "sto-n1",
+   "category": "storage",
+   "name": "1TB NVMe SSD",
+   "interface": "NVMe",
+   "capacityGb": 1000,
+   "price": 65
+  },
+  {
+   "id": "sto-n2",
+   "category": "storage",
+   "name": "2TB NVMe SSD",
+   "interface": "NVMe",
+   "capacityGb": 2000,
+   "price": 120
+  },
+  {
+   "id": "sto-n4",
+   "category": "storage",
+   "name": "4TB NVMe SSD",
+   "interface": "NVMe",
+   "capacityGb": 4000,
+   "price": 250
+  },
+  {
+   "id": "sto-s1",
+   "category": "storage",
+   "name": "1TB SATA SSD",
+   "interface": "SATA",
+   "capacityGb": 1000,
+   "price": 60
+  },
+  {
+   "id": "sto-s2",
+   "category": "storage",
+   "name": "2TB SATA SSD",
+   "interface": "SATA",
+   "capacityGb": 2000,
+   "price": 110
+  },
+  {
+   "id": "sto-h4",
+   "category": "storage",
+   "name": "4TB SATA hard drive",
+   "interface": "SATA",
+   "capacityGb": 4000,
+   "price": 85
+  }
+ ],
+ "psu": [
+  {
+   "id": "psu-450",
+   "category": "psu",
+   "name": "450W 80+ Gold-class PSU",
+   "watts": 450,
+   "price": 45
+  },
+  {
+   "id": "psu-550",
+   "category": "psu",
+   "name": "550W 80+ Gold-class PSU",
+   "watts": 550,
+   "price": 60
+  },
+  {
+   "id": "psu-650",
+   "category": "psu",
+   "name": "650W 80+ Gold-class PSU",
+   "watts": 650,
+   "price": 75
+  },
+  {
+   "id": "psu-750",
+   "category": "psu",
+   "name": "750W 80+ Gold-class PSU",
+   "watts": 750,
+   "price": 90
+  },
+  {
+   "id": "psu-850",
+   "category": "psu",
+   "name": "850W 80+ Gold-class PSU",
+   "watts": 850,
+   "price": 120
+  },
+  {
+   "id": "psu-1000",
+   "category": "psu",
+   "name": "1000W 80+ Gold-class PSU",
+   "watts": 1000,
+   "price": 160
+  },
+  {
+   "id": "psu-1200",
+   "category": "psu",
+   "name": "1200W 80+ Gold-class PSU",
+   "watts": 1200,
+   "price": 220
+  }
+ ],
+ "case": [
+  {
+   "id": "case-itx-sff",
+   "category": "case",
+   "name": "Small form factor ITX case",
+   "formFactors": [
+    "ITX"
+   ],
+   "maxGpuMm": 290,
+   "maxCoolerMm": 70,
+   "price": 110
+  },
+  {
+   "id": "case-itx-mini",
+   "category": "case",
+   "name": "Mini-ITX tower",
+   "formFactors": [
+    "ITX"
+   ],
+   "maxGpuMm": 240,
+   "maxCoolerMm": 70,
+   "price": 90
+  },
+  {
+   "id": "case-matx-budget",
+   "category": "case",
+   "name": "Budget micro-ATX case",
+   "formFactors": [
+    "mATX",
+    "ITX"
+   ],
+   "maxGpuMm": 250,
+   "maxCoolerMm": 150,
+   "price": 50
+  },
+  {
+   "id": "case-matx",
+   "category": "case",
+   "name": "Micro-ATX mid case",
+   "formFactors": [
+    "mATX",
+    "ITX"
+   ],
+   "maxGpuMm": 300,
+   "maxCoolerMm": 160,
+   "price": 70
+  },
+  {
+   "id": "case-atx-budget",
+   "category": "case",
+   "name": "Budget ATX mid tower",
+   "formFactors": [
+    "ATX",
+    "mATX",
+    "ITX"
+   ],
+   "maxGpuMm": 290,
+   "maxCoolerMm": 160,
+   "price": 55
+  },
+  {
+   "id": "case-atx",
+   "category": "case",
+   "name": "ATX mid tower, good airflow",
+   "formFactors": [
+    "ATX",
+    "mATX",
+    "ITX"
+   ],
+   "maxGpuMm": 330,
+   "maxCoolerMm": 165,
+   "price": 85
+  },
+  {
+   "id": "case-atx-full",
+   "category": "case",
+   "name": "ATX full tower, roomy",
+   "formFactors": [
+    "ATX",
+    "mATX",
+    "ITX"
+   ],
+   "maxGpuMm": 400,
+   "maxCoolerMm": 185,
+   "price": 140
+  }
+ ],
+ "cooler": [
+  {
+   "id": "cool-lp",
+   "category": "cooler",
+   "name": "Low-profile air cooler (55 mm)",
+   "heightMm": 55,
+   "tdpRating": 65,
+   "sockets": [
+    "AM4",
+    "AM5",
+    "LGA1700"
+   ],
+   "price": 20
+  },
+  {
+   "id": "cool-92",
+   "category": "cooler",
+   "name": "Compact 92 mm tower air cooler",
+   "heightMm": 95,
+   "tdpRating": 95,
+   "sockets": [
+    "AM4",
+    "AM5",
+    "LGA1700"
+   ],
+   "price": 28
+  },
+  {
+   "id": "cool-am-budget",
+   "category": "cooler",
+   "name": "Budget tower, AM4/AM5 mounts only",
+   "heightMm": 145,
+   "tdpRating": 125,
+   "sockets": [
+    "AM4",
+    "AM5"
+   ],
+   "price": 25
+  },
+  {
+   "id": "cool-120",
+   "category": "cooler",
+   "name": "120 mm tower air cooler",
+   "heightMm": 152,
+   "tdpRating": 150,
+   "sockets": [
+    "AM4",
+    "AM5",
+    "LGA1700"
+   ],
+   "price": 35
+  },
+  {
+   "id": "cool-dual",
+   "category": "cooler",
+   "name": "Dual-tower air cooler",
+   "heightMm": 165,
+   "tdpRating": 230,
+   "sockets": [
+    "AM4",
+    "AM5",
+    "LGA1700"
+   ],
+   "price": 60
+  }
+ ]
+}

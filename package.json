@@ -1,0 +1,24 @@
+{
+  "name": "pc-build-planner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Budget and use case in, compatible PC parts list out. Static TypeScript app with a tested compatibility rules engine.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.73.0",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}
