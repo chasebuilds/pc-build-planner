@@ -70,3 +70,11 @@ CI runs lint, typecheck, tests and build on every push. A second workflow deploy
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+## More from Chase Builds
+
+- **[field-service-pwa](https://github.com/chasebuilds/field-service-pwa)**: Phone app for crews: job tickets, photos, parts, time, customer signature and invoice. Works with no signal. ([live demo](https://chasebuilds.github.io/field-service-pwa/))
+- **[table-export-extension](https://github.com/chasebuilds/table-export-extension)**: Export any web table to Excel. No data leaves the browser. ([live demo](https://chasebuilds.github.io/table-export-extension/))
+- **[cost-approach-calculator](https://github.com/chasebuilds/cost-approach-calculator)**: Replacement cost, depreciation and land value, with every step shown. ([live demo](https://chasebuilds.github.io/cost-approach-calculator/))
+
+[All projects, sorted by industry](https://github.com/chasebuilds) · [chasebuilds.github.io](https://chasebuilds.github.io)
